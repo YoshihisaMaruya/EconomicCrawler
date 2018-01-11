@@ -1,3 +1,4 @@
-log/
-conifg/
+log
+config
+dataset
 crontab
