@@ -1,0 +1,7 @@
+crawlers_cron:
+  build: CrawlersCron
+  volumes:
+    - ./CrawlersCron/log:/log
+    - ./CrawlersCron/config:/config
+    - ./CrawlersCron/dataset:/dataset
+    - /etc/localtime:/etc/localtime:ro
